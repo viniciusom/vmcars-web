@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import CarsList from './vmcars/CarsList';
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Clean project</h1>
+    <CarsList />
   </React.StrictMode>,
   document.getElementById('root')
 );
